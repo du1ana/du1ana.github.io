@@ -16,35 +16,53 @@ export default class Aboutme extends React.Component {
             <br/><br/>
             Follow me on these platforms to keep in touch with me and my content...
             <br/><br/>
-            <p className="font-weight-bold h1">
+            <div className="row font-weight-bold h1">
+            <div className="col-2 col-md-1 m-1">
               <a href="https://www.linkedin.com/in/dulana" target="_blank">
                 <i class="fab fa-linkedin"></i>
-              </a>&nbsp;
+              </a>
+            </div>
+            <div className="col-2 col-md-1 m-1">
               <a href="https://www.instagram.com/du1ana" target="_blank">
                 <i class="fab fa-instagram"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.facebook.com/du1ana" target="_blank">
                 <i class="fab fa-facebook"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.youtube.com/channel/UCzISSLh1kXfI-sVlIOKIPUQ" target="_blank">
                 <i class="fab fa-youtube"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.twitter.com/du1ana" target="_blank">
                 <i class="fab fa-twitter"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.tiktok.com/@du1ana" target="_blank">
                 <i class="fab fa-tiktok"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.github.com/du1ana" target="_blank">
                 <i class="fab fa-github"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.hackerrank.com/dulana" target="_blank">
                 <i class="fab fa-hackerrank"></i>
-              </a>&nbsp;
+              </a>
+              </div>
+              <div className="col-2 col-md-1 m-1">
               <a href="https://www.codepen.io/du1ana" target="_blank">
                 <i class="fab fa-codepen"></i>
-              </a>&nbsp;
-            </p>
+              </a>
+              </div>
+            </div>
           </div>
           <div className="d-none d-lg-inline">
             <br/>
