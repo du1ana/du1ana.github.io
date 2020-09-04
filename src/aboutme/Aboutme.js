@@ -7,7 +7,7 @@ export default class Aboutme extends React.Component {
   return (
     <div>
       <div className="my-auto w-100 container d-flex flex-row justify-content-around flex-wrap">
-          <div className="col-7 col-xs-12 text-white">
+          <div className="col m-4 text-white">
             <br/><br/>
             <p className="h2">
               Hi There! I'm Dulana.
