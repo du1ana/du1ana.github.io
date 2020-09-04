@@ -1,0 +1,76 @@
+/*open sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/*Basic*/
+@import url('https://fonts.googleapis.com/css2?family=Basic:wght@400;700&display=swap');
+
+body{
+  font-family: "open sans";
+  background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-size: cover;
+background-repeat: repeat;
+
+}
+
+
+/*NAVBAR*/
+.navbar-dark{
+  opacity: 0.96;
+}
+
+.navbar{
+  background-color: red;
+  margin-bottom: 20px;
+}
+.navbar-item{
+  margin-right: 20px;
+  cursor: pointer;
+}
+.navbar-brand{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.navbar-toggler{
+  border:0;
+}
+#navbar-title{
+  color:white;
+  font-size: 25px;
+  font-family: "Open sans";
+  font-weight: 400;
+  margin-left: 20px;
+}
+.special-text{
+  color: #5fd18c;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Basic";
+}
+
+
+h1{
+  color: white;
+  line-height: 1.3;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.fab{
+  color:white;
+}
+.fab:hover{
+  color:#5fd18c;
+}
+
+.card{
+  display: inline-block;
+}
+
+.fa {
+  color: black;
+}
