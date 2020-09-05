@@ -9,8 +9,8 @@ export default class Navbar extends React.Component {
 
   render(){
   return (
-    <div>
-      <nav className=" d-sm-none navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+    <div className="sticky-top">
+      <nav className=" d-sm-none navbar navbar-dark bg-dark navbar-expand-sm">
               <div className="navbar-brand">
               <img src={logo} height="40vh" alt="dulana logo"/>
               <span id="navbar-title">du<span class="special-text">1</span>ana</span>
@@ -51,7 +51,7 @@ export default class Navbar extends React.Component {
           </nav>
 
           <div className="d-none d-sm-block">
-            <nav className="navbar navbar-dark navbar-expand-sm bg-dark sticky-top">
+            <nav className="navbar navbar-dark navbar-expand-sm bg-dark">
                     <div className="navbar-brand">
                     <img src={logo} height="40vh" alt="dulana logo"/>
                     <span id="navbar-title">du<span class="special-text">1</span>ana</span>
