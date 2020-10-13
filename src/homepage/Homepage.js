@@ -3,6 +3,7 @@ import data from './featureddata.json'
 import code from './assets/code.svg'
 import coffee from './assets/coffee.svg'
 import star from './assets/star.svg'
+import cwc from './assets/cwc1.svg'
 
 export default class Homepage extends React.Component {
   constructor(){
@@ -14,12 +15,7 @@ export default class Homepage extends React.Component {
     <div className="my-auto w-100 container d-flex flex-row justify-content-around flex-wrap-reverse align-items-center">
         <div className="d-none d-md-inline text-right">
               <div id="homepage-title">
-              <h1>
-              <img src={code} height="50vh"/>
-              ed <br/>
-              with <br/>
-              <img src={coffee} height="70vh"/>
-              </h1>
+              <img src={cwc} height="200vh"/>
               </div>
         </div>
 

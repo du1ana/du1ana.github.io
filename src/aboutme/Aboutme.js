@@ -12,7 +12,7 @@ export default class Aboutme extends React.Component {
             <p className="h2">
               Hi There! I'm Dulana Peiris.
             </p>
-            I'm a 21 year old IT undergraduate from Colombo, Sri Lanka. I'm interested in web development and art.
+            I'm a 21 year old IT undergraduate from Colombo, Sri Lanka. I'm interested in web development and digital art.
             <br/><br/>
             Follow me on these platforms to keep in touch with me and my content...
             <br/><br/>
