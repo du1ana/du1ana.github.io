@@ -35,7 +35,7 @@ export default class Navbar extends React.Component {
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("projects")}
                           className={(this.props.navState=="projects")?"nav-link active":"nav-link"}>
-                          Portfolio
+                          Work
                           </a>
                       </li>
                       <li className="navbar-item">
@@ -69,7 +69,7 @@ export default class Navbar extends React.Component {
                                 <a
                                 onClick={()=>this.props.handleNavigation("projects")}
                                 className={(this.props.navState=="projects")?"nav-link active":"nav-link"}>
-                                Projects
+                                Work
                                 </a>
                             </li>
                             <li className="navbar-item">

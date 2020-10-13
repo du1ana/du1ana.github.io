@@ -10,9 +10,9 @@ export default class Aboutme extends React.Component {
           <div className="col m-4 text-white">
             <br/><br/>
             <p className="h2">
-              Hi There! I'm Dulana.
+              Hi There! I'm Dulana Peiris.
             </p>
-            I'm a 21 year old IT undergraduate from Colombo, Sri Lanka. I make websites and web apps in my free time.
+            I'm a 21 year old IT undergraduate from Colombo, Sri Lanka. I'm interested in web development and art.
             <br/><br/>
             Follow me on these platforms to keep in touch with me and my content...
             <br/><br/>
@@ -33,18 +33,13 @@ export default class Aboutme extends React.Component {
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
-              <a href="https://www.youtube.com/channel/UCzISSLh1kXfI-sVlIOKIPUQ" target="_blank">
-                <i class="fab fa-youtube"></i>
-              </a>
-              </div>
-              <div className="col-2 col-md-1 m-1">
               <a href="https://www.twitter.com/du1ana" target="_blank">
                 <i class="fab fa-twitter"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
-              <a href="https://www.tiktok.com/@du1ana" target="_blank">
-                <i class="fab fa-tiktok"></i>
+              <a href="https://www.instagram.com/pixxu" target="_blank">
+                <i class="fas fa-palette"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">

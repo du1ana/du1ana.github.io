@@ -59,10 +59,10 @@ h1{
   font-size: 50px;
 }
 
-.fab{
+.fab,.fas{
   color:white;
 }
-.fab:hover{
+.fab:hover,.fas:hover{
   color:#5fd18c;
 }
 
