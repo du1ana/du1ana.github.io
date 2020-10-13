@@ -26,7 +26,7 @@ export default class Homepage extends React.Component {
 
         <div className="card m-2 p-2 bg-light align-middle" style={{width: "25rem"}}>
           <div className="card-header">
-            <img src={star} height="15vh" className="align-middle"/> <b>Featured Project</b>
+            <img src={star} height="15vh" className="align-middle"/> <b>Featured</b>
           </div>
           <img className="card-img-top" src={data.img} alt="Card image cap"/>
           <div className="card-body">

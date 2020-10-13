@@ -13,7 +13,7 @@ export default class Projects extends React.Component {
   return (
     <div>
     <h1 className="page-title text-center">
-    Projects
+    Portfolio
     </h1>
     <div id="cardContainer" className="container text-center">
     {projCards}
