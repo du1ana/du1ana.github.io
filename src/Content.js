@@ -5,9 +5,6 @@ import Projects from './projects/Projects.js';
 import Aboutme from './aboutme/Aboutme.js';
 
 export default class Content extends React.Component {
-  constructor(props){
-    super(props)
-  }
 
   render(){
     switch (this.props.nav) {

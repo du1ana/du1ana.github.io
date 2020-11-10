@@ -1,11 +1,7 @@
 import React from 'react';
 import logo from './assets/du.svg';
-import $ from 'jquery';
 
 export default class Navbar extends React.Component {
-  constructor(props){
-    super(props)
-  }
 
   render(){
   return (
@@ -26,7 +22,7 @@ export default class Navbar extends React.Component {
                           <a
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("homepage")}
-                          className={(this.props.navState=="homepage")?"nav-link active":"nav-link"}>
+                          className={(this.props.navState==="homepage")?"nav-link active":"nav-link"}>
                           Homepage
                           </a>
                       </li>
@@ -34,7 +30,7 @@ export default class Navbar extends React.Component {
                           <a
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("projects")}
-                          className={(this.props.navState=="projects")?"nav-link active":"nav-link"}>
+                          className={(this.props.navState==="projects")?"nav-link active":"nav-link"}>
                           Work
                           </a>
                       </li>
@@ -42,7 +38,7 @@ export default class Navbar extends React.Component {
                           <a
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("aboutme")}
-                          className={(this.props.navState=="aboutme")?"nav-link active":"nav-link"}>
+                          className={(this.props.navState==="aboutme")?"nav-link active":"nav-link"}>
                           About Me
                           </a>
                       </li>
@@ -61,21 +57,21 @@ export default class Navbar extends React.Component {
                             <li className="navbar-item">
                                 <a
                                 onClick={()=>this.props.handleNavigation("homepage")}
-                                className={(this.props.navState=="homepage")?"nav-link active":"nav-link"}>
+                                className={(this.props.navState==="homepage")?"nav-link active":"nav-link"}>
                                 Homepage
                                 </a>
                             </li>
                             <li className="navbar-item">
                                 <a
                                 onClick={()=>this.props.handleNavigation("projects")}
-                                className={(this.props.navState=="projects")?"nav-link active":"nav-link"}>
+                                className={(this.props.navState==="projects")?"nav-link active":"nav-link"}>
                                 Work
                                 </a>
                             </li>
                             <li className="navbar-item">
                                 <a
                                 onClick={()=>this.props.handleNavigation("aboutme")}
-                                className={(this.props.navState=="aboutme")?"nav-link active":"nav-link"}>
+                                className={(this.props.navState==="aboutme")?"nav-link active":"nav-link"}>
                                 About Me
                                 </a>
                             </li>
