@@ -5,7 +5,7 @@ import data from './projectsdata.json'
 export default class Projects extends React.Component {
 
   render(){
-  const projCards= data.reverse().map(proj=>
+  const projCards= data.map(proj=>
     <ProjectCard
     key={proj.id}
     data={proj}

@@ -1,5 +1,13 @@
 
-  [{
+  [
+    {
+      "id":2,
+      "name":"PelaPotha+",
+      "url":"https://youtu.be/I10YrYF_UhY",
+      "desc":"An educational app which enriches school textbooks using Augmented Reality based technology.",
+      "img":"./thumbnails/pelapotha.png"
+    },
+    {
     "id":1,
     "name":"SL COVID-19 Dashboard",
     "url":"https://du1ana.github.io/covid-19-dashboard/index.html",
@@ -7,14 +15,8 @@
     "img":"./thumbnails/slcovid.png",
     "github":"https://github.com/du1ana/covid-19-dashboard",
     "codepen":"https://codepen.io/du1ana/full/dyoKErm"
-  },
-  {
-    "id":2,
-    "name":"PelaPotha+",
-    "url":"https://youtu.be/I10YrYF_UhY",
-    "desc":"An educational app which enriches school textbooks using Augmented Reality based technology.",
-    "img":"./thumbnails/pelapotha.png"
   }
+
 
 
 
