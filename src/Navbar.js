@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/du.svg';
+import DuIcon from './assets/du.jsx';
 
 export default class Navbar extends React.Component {
 
@@ -8,7 +8,7 @@ export default class Navbar extends React.Component {
     <div className="sticky-top">
       <nav className=" d-sm-none navbar navbar-dark bg-dark navbar-expand-sm">
               <div className="navbar-brand">
-              <img src={logo} height="40vh" alt="dulana logo"/>
+              <DuIcon/>
               <span id="navbar-title">du<span class="special-text">1</span>ana</span>
               </div>
 
@@ -49,7 +49,7 @@ export default class Navbar extends React.Component {
           <div className="d-none d-sm-block">
             <nav className="navbar navbar-dark navbar-expand-sm bg-dark">
                     <div className="navbar-brand">
-                    <img src={logo} height="40vh" alt="dulana logo"/>
+                    <DuIcon/>
                     <span id="navbar-title">du<span class="special-text">1</span>ana</span>
                     </div>
                     <div className="navbar-collapse">

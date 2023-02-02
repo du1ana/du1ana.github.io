@@ -1,7 +1,10 @@
 import React from 'react';
 import data from './featureddata.json'
-import star from './assets/star.svg'
-import cwc from './assets/cwc1.svg'
+import StarIcon from './assets/star.jsx'
+import Cwc1Icon from './assets/cwc1.jsx'
+import ReactImageAppear from 'react-image-appear';
+ 
+
 
 export default class Homepage extends React.Component {
   render(){
@@ -9,16 +12,21 @@ export default class Homepage extends React.Component {
     <div className="my-auto w-100 container d-flex flex-row justify-content-around flex-wrap-reverse align-items-center">
         <div className="d-none d-md-inline text-right">
               <div id="homepage-title">
-              <img src={cwc} height="200vh" alt=""/>
+              <Cwc1Icon/>
               </div>
         </div>
 
 
         <div className="card m-2 p-2 bg-light align-middle" style={{width: "25rem"}}>
           <div className="card-header">
-            <img src={star} alt="" height="15vh" className="align-middle"/> <b>Featured</b>
+          <StarIcon/> <b>&nbsp;Featured</b>
           </div>
-          <img className="card-img-top" src={data.img} alt={data.name}/>
+          <ReactImageAppear 
+              className="card-img-top" 
+              src={data.img}
+              animation="fadeIn"
+              animationDuration="1s"
+          />
           <div className="card-body">
               <h5 className="card-title">{data.name}</h5>
               <p className="card-text">{data.desc}</p>
