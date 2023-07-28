@@ -2,9 +2,7 @@ import React from 'react';
 import data from './featureddata.json'
 import StarIcon from './assets/star.jsx'
 import Cwc1Icon from './assets/cwc1.jsx'
-import ReactImageAppear from 'react-image-appear';
- 
-
+import ImageLoader from '../ImageLoader'
 
 export default class Homepage extends React.Component {
   render(){
@@ -21,12 +19,10 @@ export default class Homepage extends React.Component {
           <div className="card-header">
           <StarIcon/> <b>&nbsp;Featured</b>
           </div>
-          <ReactImageAppear 
-              className="card-img-top" 
-              src={data.img}
-              animation="fadeIn"
-              animationDuration="1s"
-          />
+
+
+          <ImageLoader imgClass="card-img-top" src={data.img} placeholderSrc={data.img_placeholder} alt={data.name} height='190px'/>
+
           <div className="card-body">
               <h5 className="card-title">{data.name}</h5>
               <p className="card-text">{data.desc}</p>

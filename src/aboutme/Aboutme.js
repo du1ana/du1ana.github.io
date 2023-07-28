@@ -37,11 +37,6 @@ export default class Aboutme extends React.Component {
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
-              <a href="https://www.instagram.com/pixxu" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-palette"></i>
-              </a>
-              </div>
-              <div className="col-2 col-md-1 m-1">
               <a href="https://www.github.com/du1ana" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a>

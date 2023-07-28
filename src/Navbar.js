@@ -9,7 +9,7 @@ export default class Navbar extends React.Component {
       <nav className=" d-sm-none navbar navbar-dark bg-dark navbar-expand-sm">
               <div className="navbar-brand">
               <DuIcon/>
-              <span id="navbar-title">du<span class="special-text">1</span>ana</span>
+              <span id="navbar-title">du<span className="special-text">1</span>ana</span>
               </div>
 
               <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
