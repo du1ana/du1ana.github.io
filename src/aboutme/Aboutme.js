@@ -18,37 +18,37 @@ export default class Aboutme extends React.Component {
             <div className="row font-weight-bold h1">
             <div className="col-2 col-md-1 m-1">
               <a href="https://www.linkedin.com/in/dulana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </div>
             <div className="col-2 col-md-1 m-1">
               <a href="https://www.instagram.com/du1ana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
               <a href="https://www.facebook.com/du1ana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-facebook"></i>
+                <i className="fab fa-facebook"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
               <a href="https://www.twitter.com/du1ana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
               <a href="https://www.github.com/du1ana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
               <a href="https://www.hackerrank.com/dulana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-hackerrank"></i>
+                <i className="fab fa-hackerrank"></i>
               </a>
               </div>
               <div className="col-2 col-md-1 m-1">
               <a href="https://www.codepen.io/du1ana" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-codepen"></i>
+                <i className="fab fa-codepen"></i>
               </a>
               </div>
             </div>

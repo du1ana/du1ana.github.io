@@ -19,28 +19,28 @@ export default class Navbar extends React.Component {
               <div className="collapse navbar-collapse"id="navbarCollapse">
                   <ul className="navbar-nav ml-auto">
                       <li className="navbar-item">
-                          <a
+                          <div
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("homepage")}
                           className={(this.props.navState==="homepage")?"nav-link active":"nav-link"}>
                           Homepage
-                          </a>
+                          </div>
                       </li>
                       <li className="navbar-item">
-                          <a
+                          <div
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("projects")}
                           className={(this.props.navState==="projects")?"nav-link active":"nav-link"}>
                           Work
-                          </a>
+                          </div>
                       </li>
                       <li className="navbar-item">
-                          <a
+                          <div
                           data-toggle="collapse" data-target="#navbarCollapse"
                           onClick={()=>this.props.handleNavigation("aboutme")}
                           className={(this.props.navState==="aboutme")?"nav-link active":"nav-link"}>
                           About Me
-                          </a>
+                          </div>
                       </li>
                   </ul>
               </div>
@@ -50,30 +50,30 @@ export default class Navbar extends React.Component {
             <nav className="navbar navbar-dark navbar-expand-sm bg-dark">
                     <div className="navbar-brand">
                     <DuIcon/>
-                    <span id="navbar-title">du<span class="special-text">1</span>ana</span>
+                    <span id="navbar-title">du<span className="special-text">1</span>ana</span>
                     </div>
                     <div className="navbar-collapse">
                         <ul className="navbar-nav ml-auto">
                             <li className="navbar-item">
-                                <a
+                                <div
                                 onClick={()=>this.props.handleNavigation("homepage")}
                                 className={(this.props.navState==="homepage")?"nav-link active":"nav-link"}>
                                 Homepage
-                                </a>
+                                </div>
                             </li>
                             <li className="navbar-item">
-                                <a
+                                <div
                                 onClick={()=>this.props.handleNavigation("projects")}
                                 className={(this.props.navState==="projects")?"nav-link active":"nav-link"}>
                                 Work
-                                </a>
+                                </div>
                             </li>
                             <li className="navbar-item">
-                                <a
+                                <div
                                 onClick={()=>this.props.handleNavigation("aboutme")}
                                 className={(this.props.navState==="aboutme")?"nav-link active":"nav-link"}>
                                 About Me
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </div>

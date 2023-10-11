@@ -1,6 +1,5 @@
 import React from 'react';
 import data from './projectsdata.json'
-import ImageLoader from '../ImageLoader'
 
 export default class Projects extends React.Component {
 
@@ -25,21 +24,21 @@ export default class Projects extends React.Component {
 function ProjectCard(props) {
   return(
     <div className="card mx-2 my-3 p-1 align-top" style={{width: "20rem"}}>
-      <ImageLoader imgClass="card-img-top" src={props.data.img} placeholderSrc={props.data.img_placeholder} alt={props.data.name} height='155px'/>
+      <img className="card-img-top" src={props.data.img} alt={props.data.name} height='155px'/>
       <div className="card-body">
           <h5 className="card-title">{props.data.name}</h5>
           <p className="card-text text-muted">{props.data.desc}</p>
-          <a href={props.data.url} target="_blank" rel="noopener noreferrer" class="btn btn-info btn-block"><i class="fas fa-external-link-alt"></i>  View</a>
+          <a href={props.data.url} target="_blank" rel="noopener noreferrer" className="btn btn-info btn-block"><i className="fas fa-external-link-alt"></i>  View</a>
       </div>
       {(props.data.github||props.data.codepen)?
       //github
       <div className="card-footer text-center">
         {(props.data.github)?
-          <a href={props.data.github} target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm mx-1"><i class="fab fa-github"></i> Github</a>
+          <a href={props.data.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm mx-1"><i className="fab fa-github"></i> Github</a>
           :null
       }
       {(props.data.codepen)?
-        <a href={props.data.codepen} target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm mx-1"><i class="fab fa-codepen"></i> Codepen</a>
+        <a href={props.data.codepen} target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm mx-1"><i className="fab fa-codepen"></i> Codepen</a>
         :null
       }
 

@@ -4,8 +4,7 @@
     "name": "PelaPotha+",
     "url": "https://youtu.be/I10YrYF_UhY",
     "desc": "An educational app which enriches school textbooks using Augmented Reality based technology.",
-    "img": "./thumbnails/pelapotha.jpg",
-    "img_placeholder": "./thumbnails/pelapotha_s.jpg"
+    "img": "./thumbnails/pelapotha.jpg"
   },
   {
     "id": 1,
@@ -13,7 +12,6 @@
     "url": "https://du1ana.github.io/covid-19-dashboard/index.html",
     "desc": "A dashboard which displays Sri Lankan COVID-19 statistics.",
     "img": "./thumbnails/slcovid.jpg",
-    "img_placeholder": "./thumbnails/slcovid_s.jpg",
     "github": "https://github.com/du1ana/covid-19-dashboard",
     "codepen": "https://codepen.io/du1ana/full/dyoKErm"
   }

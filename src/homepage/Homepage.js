@@ -2,7 +2,6 @@ import React from 'react';
 import data from './featureddata.json'
 import StarIcon from './assets/star.jsx'
 import Cwc1Icon from './assets/cwc1.jsx'
-import ImageLoader from '../ImageLoader'
 
 export default class Homepage extends React.Component {
   render(){
@@ -20,13 +19,13 @@ export default class Homepage extends React.Component {
           <StarIcon/> <b>&nbsp;Featured</b>
           </div>
 
-
-          <ImageLoader imgClass="card-img-top" src={data.img} placeholderSrc={data.img_placeholder} alt={data.name} height='190px'/>
-
+          <div style={{overflow: 'hidden'}}>
+          <img className="card-img-top" src={data.img} alt={data.name} height='190px'/>
+          </div>
           <div className="card-body">
               <h5 className="card-title">{data.name}</h5>
               <p className="card-text">{data.desc}</p>
-              <a href={data.url} target="_blank" rel="noopener noreferrer" class="btn btn-info btn-block"><i class="fas fa-external-link-alt"></i>  View</a>
+              <a href={data.url} target="_blank" rel="noopener noreferrer" className="btn btn-info btn-block"><i className="fas fa-external-link-alt"></i>  View</a>
           </div>
         </div>
     </div>
