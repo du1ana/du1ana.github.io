@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar.js';
+import Navbar from './nabvar/Navbar.js';
 import Content from './Content.js';
 
 const PRELOAD_IMAGE_LIST = ["/thumbnails/pelapotha.jpg", "/thumbnails/slcovid.jpg"]

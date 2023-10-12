@@ -4,8 +4,7 @@ function DuIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24.28965"
-      height="38.58101"
+      height="27"
       viewBox="0 0 102.01 162.03"
     >
       <path

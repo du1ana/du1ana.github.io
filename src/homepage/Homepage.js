@@ -20,11 +20,11 @@ export default class Homepage extends React.Component {
           </div>
 
           <div style={{overflow: 'hidden'}}>
-          <img className="card-img-top" src={data.img} alt={data.name} height='190px'/>
+          <img className="card-img-top" src={data.img} alt={data.name} maxHeight='190px'/>
           </div>
           <div className="card-body">
               <h5 className="card-title">{data.name}</h5>
-              <p className="card-text">{data.desc}</p>
+              <p className="card-text text-muted">{data.desc}</p>
               <a href={data.url} target="_blank" rel="noopener noreferrer" className="btn btn-info btn-block"><i className="fas fa-external-link-alt"></i>  View</a>
           </div>
         </div>
