@@ -14,13 +14,13 @@ export default class Homepage extends React.Component {
         </div>
 
 
-        <div className="card m-2 p-2 bg-light align-middle" style={{width: "25rem"}}>
+        <div className="card m-2 p-2 bg-light align-middle" style={{maxWidth: "25rem", overflow: "hidden"}}>
           <div className="card-header">
           <StarIcon/> <b>&nbsp;Featured</b>
           </div>
 
           <div style={{overflow: 'hidden'}}>
-          <img className="card-img-top" src={data.img} alt={data.name} maxHeight='190px'/>
+          <img className="card-img-top" src={data.img} alt={data.name} style={{maxHeight:'190px'}}/>
           </div>
           <div className="card-body">
               <h5 className="card-title">{data.name}</h5>

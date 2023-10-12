@@ -23,8 +23,8 @@ export default class Projects extends React.Component {
 
 function ProjectCard(props) {
   return(
-    <div className="card mx-2 my-3 p-1 align-top" style={{maxWidth: "20rem"}}>
-      <img className="card-img-top" src={props.data.img} alt={props.data.name} maxHeight='155px'/>
+    <div className="card mx-2 my-3 p-1 align-top" style={{maxWidth: "20rem", overflow:"hidden"}}>
+      <img className="card-img-top" src={props.data.img} alt={props.data.name} style={{maxHeight:'155px'}}/>
       <div className="card-body">
           <h5 className="card-title">{props.data.name}</h5>
           <p className="card-text text-muted">{props.data.desc}</p>
