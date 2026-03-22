@@ -47,7 +47,7 @@
     {/if}
 
     {#if tags.length > 0}
-      <div class="flex flex-wrap gap-1.5 mb-3">
+      <div class="hidden sm:flex flex-wrap gap-1.5 mb-3">
         {#each tags.slice(0, 5) as tag}
           <span class="badge-secondary text-sm">{tag}</span>
         {/each}

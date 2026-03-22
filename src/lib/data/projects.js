@@ -208,8 +208,8 @@ Worked across the full stack: React/TypeScript frontend with Redux state managem
     overview: `Built an ATMEGA32-based embedded system that alerts drivers of upcoming pedestrian crossings and warns pedestrians of approaching vehicles using ultrasonic sensors. Responsible for PCB design and fabrication, sensor integration, and pedestrian detection logic.`,
     experience_id: 'uom',
     technology_ids: ['atmega32'],
-    start_date: '2019',
-    end_date: '2020',
+    start_date: 'Dec 2018',
+    end_date: 'Dec 2019',
     images: []
   },
   synthetic_facial_classifier: {

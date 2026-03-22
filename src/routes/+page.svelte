@@ -9,7 +9,7 @@
     .slice(0, 3);
 </script>
 
-<div class="min-h-screen relative overflow-hidden flex items-center">
+<div class="min-h-screen pt-16 relative overflow-hidden flex items-center">
   <!-- Abstract shapes background -->
   <div class="absolute inset-0 pointer-events-none overflow-hidden">
     <div class="shape shape-1"></div>

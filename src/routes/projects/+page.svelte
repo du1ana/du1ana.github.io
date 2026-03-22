@@ -46,7 +46,7 @@
       </div>
 
       <!-- Type filter -->
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         {#each [['all', 'All'], [PROJECT_TYPES.PROFESSIONAL, 'Professional'], [PROJECT_TYPES.SIDE_PROJECT, 'Side Projects'], [PROJECT_TYPES.ACADEMIC, 'Academic']] as [val, label]}
           <button
             on:click={() => setTypeFilter(val)}
@@ -60,7 +60,7 @@
       <div class="hidden sm:block w-px h-6 bg-border"></div>
 
       <!-- Status filter -->
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         {#each [['all', 'All Status'], [PROJECT_STATUS.LIVE, 'Live'], [PROJECT_STATUS.IN_DEVELOPMENT, 'In Development']] as [val, label]}
           <button
             on:click={() => setStatusFilter(val)}
@@ -75,7 +75,7 @@
     <!-- Grid -->
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       {#each filteredProjects as project, index (`${filterKey}-${project.id}`)}
-        <div in:fly={{ y: 20, duration: 300, delay: index * 60 }}>
+        <div in:fly={{ y: 20, duration: 300, delay: index * 60 }} class="min-w-0">
           <Card
             name={project.name}
             logo={project.logo}

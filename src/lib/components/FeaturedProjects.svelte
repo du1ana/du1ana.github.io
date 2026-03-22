@@ -63,7 +63,7 @@
       {#key currentIndex}
         <div
           in:fly={{ x: direction * 100, duration: 500 }}
-          class="p-6 md:p-8"
+          class="px-14 py-6 md:p-8"
         >
           <div class="flex flex-col md:flex-row gap-6 items-start">
             <!-- Logo -->
