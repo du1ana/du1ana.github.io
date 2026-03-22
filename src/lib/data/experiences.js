@@ -1,0 +1,76 @@
+// Experiences Data - All work and academic experiences
+
+export const EXP_TYPES = {
+  PROFESSIONAL: 'professional',
+  ACADEMIC: 'academic'
+};
+
+export const EXPERIENCES = {
+  geveo: {
+    id: 'geveo',
+    name: 'Geveo / Everpower Labs',
+    logo: null,
+    links: {
+      'Geveo': 'https://www.geveo.com',
+      'Everpower Labs': 'https://everpower.io/'
+    },
+    start_date: 'Jul 2023',
+    end_date: null,
+    roles: [
+      { role: 'Senior Software Engineer', start_date: 'Feb 2026', end_date: null },
+      { role: 'Software Engineer', start_date: 'Jul 2023', end_date: 'Feb 2026' }
+    ],
+    description: 'Working on cutting-edge blockchain and AI-powered enterprise solutions at Geveo Australasia, contributing to products like Evernode, TripQ, MedAIvo, and DOVA.',
+    exp_type: EXP_TYPES.PROFESSIONAL,
+    special_events: [
+      { name: 'Ethos Award - Geveo Annual Awards 2025', date: 'Jan 2026', link: 'https://www.linkedin.com/posts/dulana_geveoawards2025-ethosaward-companyculture-activity-7426522691282804736-MlnT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB9W5Y0BpSYvFcuZmLjh8rawmUnVJq6TEds' },
+      { name: 'Employee of the Month (Runner Up) - November 2025', date: 'Nov 2025', link: 'https://www.facebook.com/geveo/posts/pfbid031mX8rPvUmjiPgvXMgpGZGqy8MQGxKigbDjRDUKRxAwTPzwsPoDPsrsN2g4MgHYwul' },
+      { name: 'Employee of the Month (Runner Up) - May 2025', date: 'May 2025', link: 'https://www.facebook.com/geveo/posts/pfbid03dCmEftb1SczcZWx9Hnu1NgP6KeiNa9NrtLjDE8TKkhHMxw2pUA6janq2xfp2Rkfl' },
+      { name: 'Employee of the Month (Winner) - January 2025', date: 'Jan 2025', link: 'https://www.linkedin.com/posts/geveo-australasia_geveo-employeeofthemonth-january2025-activity-7294303664989511680-J4TE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB9W5Y0BpSYvFcuZmLjh8rawmUnVJq6TEds' },
+      { name: 'Geveo Codeathon 2023 Winner', date: 'Dec 2023', link: 'https://www.linkedin.com/posts/geveo-australasia_codeathon-geveocodeathon-techcompetition-activity-7114459634593136640-NztD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB9W5Y0BpSYvFcuZmLjh8rawmUnVJq6TEds' }
+    ]
+  },
+  geveo_intern: {
+    id: 'geveo_intern',
+    name: 'Geveo',
+    logo: null,
+    links: { 'Geveo': 'https://www.geveo.com' },
+    start_date: 'Jan 2022',
+    end_date: 'Jun 2022',
+    roles: [{ role: 'Intern - Software Engineering', start_date: 'Jan 2022', end_date: 'Jun 2022' }],
+    description: 'Completed a 6-month internship gaining hands-on experience in software development practices and enterprise application development.',
+    exp_type: EXP_TYPES.PROFESSIONAL,
+    special_events: []
+  },
+  uom: {
+    id: 'uom',
+    name: 'University of Moratuwa',
+    logo: null,
+    links: { 'University of Moratuwa': 'https://uom.lk/' },
+    start_date: 'Dec 2018',
+    end_date: 'Jul 2022',
+    roles: [{ role: 'BSc (Hons.) in Information Technology', start_date: 'Dec 2018', end_date: 'Jul 2022' }],
+    description: `University of Moratuwa
+BSc (Hons.) in Information Technology
+Grade: First Class (Overall GPA: 3.80)
+
+Activities and societies:
+• Represented the University in multiple inter-university and international level codeathons
+• Contributed to FIT Chronicle Magazine of the Faculty of Information Technology`,
+    exp_type: EXP_TYPES.ACADEMIC,
+    special_events: [
+      { name: "Included in the Dean's List - 2021/2022 Semester 2", date: '2022', link: null },
+      { name: "Included in the Dean's List - 2020/2021 Semester 1", date: '2020', link: null },
+      { name: "Included in the Dean's List - 2018/2019 Semester 2", date: '2019', link: null }
+    ]
+  }
+};
+
+export const getExperienceById = (id) => EXPERIENCES[id] || null;
+export const getAllExperiences = () => Object.values(EXPERIENCES);
+export const getExperiencesByType = (type) =>
+  Object.values(EXPERIENCES).filter(e => e.exp_type === type);
+export const getCurrentRole = (experience) => {
+  const currentRole = experience.roles.find(r => r.end_date === null);
+  return currentRole || experience.roles[0];
+};
